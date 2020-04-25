@@ -1,51 +1,64 @@
-header h1 a {
-  color: red;
-}
-
 body {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 18px;
 }
 
-header {
-  border-bottom: 1px solid #999;
-  margin-bottom: 2rem;
-  display: flex;
-}
-
-header h1 a {
-  color: red;
-  text-decoration: none;
-}
-
-.nav-left {
-  margin-right: auto;
-}
-
-.nav-right {
-  display: flex;
-  padding-top: 2rem;
-}
-
 .post-entry {
   margin-bottom: 2rem;
+  padding-top: 9px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .post-entry h2 {
   margin: 0.5rem 0;
+  font-weight: bold;
 }
 
 .post-entry h2 a,
 .post-entry h2 a:visited {
-  color: blue;
-  text-decoration: none;
+  color: #4caf50;
 }
 
 .post-entry p {
   margin: 0;
   font-weight: 400;
+  font-style: italic;
 }
 
 .post-entry h2 a:hover {
-  color: red;
+  color: rgb(11, 115, 149);
+}
+
+.navbar {
+  opacity: 0.9;
+  text-transform: uppercase;
+}
+
+button[type="submit"],
+input[type="submit"],
+.btn {
+  background-color: #4caf50;
+  border-radius: 40px;
+  border: none;
+  color: #fff;
+  padding: 16px 32px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+a {
+  color: #fff;
+}
+
+.looks {
+  text-transform: capitalize;
+  color: rgba(10, 122, 47, 0.685);
+  padding-top: 9px;
+}
+
+.userlook {
+  text-transform: capitalize;
+  color: #4caf50;
+  font-weight: bold;
+  font-family: cursive;
 }
