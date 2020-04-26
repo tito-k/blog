@@ -4,9 +4,7 @@ body {
 }
 
 .post-entry {
-  margin-bottom: 2rem;
-  padding-top: 9px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .post-entry h2 {
@@ -26,7 +24,7 @@ body {
 }
 
 .post-entry h2 a:hover {
-  color: rgb(11, 115, 149);
+  color: #36eb3c;
 }
 
 .navbar {
@@ -50,10 +48,19 @@ a {
   color: #fff;
 }
 
+a:hover {
+  color: black;
+}
+
+#post-title {
+  color: #3e9741;
+}
+
 .looks {
   text-transform: capitalize;
-  color: rgba(10, 122, 47, 0.685);
+  color: #4caf50;
   padding-top: 9px;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .userlook {
@@ -61,4 +68,33 @@ a {
   color: #4caf50;
   font-weight: bold;
   font-family: cursive;
+}
+
+.design_form {
+  font-family: fantasy;
+}
+
+.post-form textarea,
+.post-form input {
+  width: 20%;
+}
+
+.post-form label {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.helptext {
+  display: block;
+  font-size: small;
+  font-weight: bold;
+  font-style: italic;
+}
+
+form > ul {
+  font-size: small;
+  font-style: italic;
+}
+
+.back_color {
+  background-color: #e9ecef;
 }

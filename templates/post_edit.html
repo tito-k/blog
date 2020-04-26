@@ -1,9 +1,10 @@
-<!-- templates/post_edit.html -->
 {% extends 'base.html' %}
 {% block content %}
-<h1 class="looks">Edit post</h1>
-<form action="" method="post">{% csrf_token %}
-    {{ form.as_p }}
-    <input type="submit" value="Update" />
-</form>
+<div class="back_color">
+    <h1 class="looks">Edit post</h1>
+    <form action="" method="post" class="post-form">{% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="Update" />
+    </form>
+</div>
 {% endblock content %}
