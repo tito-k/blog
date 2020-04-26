@@ -1,0 +1,100 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+}
+
+.post-entry {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.post-entry h2 {
+  margin: 0.5rem 0;
+  font-weight: bold;
+}
+
+.post-entry h2 a,
+.post-entry h2 a:visited {
+  color: #4caf50;
+}
+
+.post-entry p {
+  margin: 0;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.post-entry h2 a:hover {
+  color: #36eb3c;
+}
+
+.navbar {
+  opacity: 0.9;
+  text-transform: uppercase;
+}
+
+button[type="submit"],
+input[type="submit"],
+.btn {
+  background-color: #4caf50;
+  border-radius: 40px;
+  border: none;
+  color: #fff;
+  padding: 16px 32px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: black;
+}
+
+#post-title {
+  color: #3e9741;
+}
+
+.looks {
+  text-transform: capitalize;
+  color: #4caf50;
+  padding-top: 9px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.userlook {
+  text-transform: capitalize;
+  color: #4caf50;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+.design_form {
+  font-family: fantasy;
+}
+
+.post-form textarea,
+.post-form input {
+  width: 20%;
+}
+
+.post-form label {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.helptext {
+  display: block;
+  font-size: small;
+  font-weight: bold;
+  font-style: italic;
+}
+
+form > ul {
+  font-size: small;
+  font-style: italic;
+}
+
+.back_color {
+  background-color: #e9ecef;
+}
