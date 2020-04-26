@@ -11,5 +11,3 @@ django = "==2.1"
 
 [requires]
 python_version = "3.7"
-
-dj-database-url==0.5.0
